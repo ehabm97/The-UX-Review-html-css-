@@ -1,0 +1,463 @@
+@media screen and (max-width:768px) {
+    .navbar .item-nav {
+        padding: 10px 0px;
+    }
+
+    .navbar .inner {
+        flex-direction: column;
+    }
+
+    .navbar .inner .review h1 a {
+        font-size: 18px;
+    }
+    .navbar .inner .review span {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+
+    .navbar .inner ul {
+        flex-direction: column;
+    }
+
+    .navbar .inner li a {
+        font-size: smaller;
+    }
+    i {
+        font-size: smaller;
+    }
+
+    .btn-subscribe {
+        margin-top: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    #home {
+        width: 100%;
+        padding-top: 160px;
+    }
+
+    #home .content {
+        flex-direction: column;
+    }
+
+    #home .content .item-one {
+        width: 100%;
+    }
+
+    #home .content .item-one .trend {
+        top: 270px;
+        left: 210px;
+    }
+
+    #home .content .item-one h1 {
+        padding-left: 25px;
+    }
+    #home .content .item-one p {
+        width: 100%;
+        font-size: 22px;
+        margin: 30px 25px;
+    }
+    #home .content .item-one .btn-second {
+        position: relative;
+        margin-top: 15px;
+        z-index: 12;
+    }
+    #home .content .item-two {
+        width: 100%;
+    }
+    #home .content .item-two .gallery img {
+        width: 100%;
+        height: 250px;
+    }
+    #home .content .item-two span {
+        right: 5px;
+    }
+    #home .content .specific-two {
+        background-color: transparent;
+        bottom: -50px;
+        left: 0px;
+    }
+    #latest-articles {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #latest-articles .group-latest {
+        width: 100%;
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent {
+        width: 100%;
+    }
+    #latest-articles .group-latest .parent .title {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .title span {
+        padding: 15px 20px;
+        transform: rotate(1deg);
+        width: fit-content;
+    }
+    #latest-articles .group-latest .parent .child-one {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-one:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 7px 7px 0 black;
+    }
+    #latest-articles .group-latest .parent .child-one .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-one .content .info-person i {
+        display: flex;
+    }
+    #latest-articles .group-latest .parent .child-two {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-two .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-two .content .info-person i {
+        display: flex;
+    }
+    #latest-articles .group-latest .parent .child-three {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-three .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-three .content .info-person i {
+        padding-right: 5px;
+        display: flex;
+    }
+    #latest-articles .group-latest .btn-lma {
+        transform: translate(20px);
+    }
+    #latest-articles .group-latest .btn-lma:hover {
+        transform: translate(20px, 20px);
+    }
+    #latest-articles .group-latest .parent-two {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #theAuthors {
+        width: 100%;
+    }
+    #theAuthors .specific {
+        background-color: transparent;
+    }
+    #theAuthors .specific-two {
+        background-color: transparent;
+    }
+    #theAuthors .title h2 {
+        font-size: 35px;
+    }
+    #theAuthors .title p {
+        font-size: 19px;
+    }
+    #theAuthors .title .af-ter::after {
+        left: 100px;
+        transform: rotate(0.5deg);
+    }
+    #theAuthors .group-person {
+        width: 100%;
+        flex-direction: column;
+    }
+    #theAuthors .group-person .person-one {
+        width: 100%;
+    }
+    #rebellion {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #rebellion .title h2 {
+        font-size: 35px;
+    }
+    #rebellion .title .af-ter::after {
+        left: 100px;
+    }
+    #rebellion .group-rebellion {
+        width: 100%;
+        flex-direction: column;
+    }
+    #rebellion .group-rebellion .group-one {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #rebellion .group-rebellion .group-one h3 {
+        font-size: 30px;
+    }
+
+    #rebellion .group-rebellion .group-one .list-group .list-gallery {
+        gap: 49px;
+    }
+    #rebellion .group-rebellion .group-one .join-now {
+        font-size: 20px;
+        padding: 25px 40px;
+    }
+    #rebellion .group-rebellion .group-two {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #rebellion .group-rebellion .group-two h3 {
+        width: 100%;
+        font-size: 25px;
+    }
+    #rebellion .group-rebellion .group-two .inner .item p {
+        font-size: 16px;
+    }
+    #footer {
+        width: 100%;
+    }
+    #footer .item .inner {
+        flex-direction: column;
+    }
+    #footer .item .inner .theux-revie {
+        width: 100%;
+    }
+    #footer .item .inner .categories {
+        width: 100%;
+    }
+    #footer .item .inner .newsletter {
+        width: 100%;
+    }
+    #footer .item .footer-end {
+        flex-direction: column;
+    }
+    #footer .item .footer-end .p-item {
+        width: 100%;
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    #footer .item .footer-end .ptc-item {
+        width: 100%;
+    }
+    #footer .item .footer-end .ptc-item ul a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:768px)and (max-width:1022px) {
+    .navbar .item-nav {
+        padding: 10px 0px;
+    }
+    .navbar .inner {
+        flex-direction: column;
+    }
+    .navbar .inner .review h1 a {
+        font-size: 18px;
+    }
+    .navbar .inner .review span {
+        font-size: 18px;
+        padding-top: 8px;
+    }
+    .navbar .inner ul {
+        flex-direction: column;
+    }
+    .navbar .inner li a {
+        font-size: smaller;
+    }
+    i {
+        font-size: smaller;
+    }
+    .btn-subscribe {
+        margin-top: 10px;
+        border: 1px solid black;
+        border-radius: 15px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    #home {
+        width: 100%;
+        padding-top: 160px;
+    }
+    #home .content {
+        flex-direction: column;
+    }
+    #home .content .item-one {
+        width: 100%;
+    }
+    #home .content .item-one .trend {
+        top: 270px;
+        left: 210px;
+    }
+    #home .content .item-one h1 {
+        padding-left: 25px;
+    }
+    #home .content .item-one p {
+        width: 100%;
+        font-size: 22px;
+        margin: 30px 25px;
+    }
+    #home .content .item-one .btn-second {
+        margin-top: 15px;
+    }
+    #home .content .item-two {
+        width: 100%;
+    }
+    #home .content .item-two .gallery img {
+        height: 400px;
+        width: 100%;
+    }
+    #home .content .item-two span {
+        right: 5px;
+    }
+    #home .content .specific-two {
+        background-color: transparent;
+        left: 0px;
+    }
+    #latest-articles {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #latest-articles .group-latest {
+        width: 100%;
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent {
+        width: 100%;
+    }
+    #latest-articles .group-latest .parent .title {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .title span {
+        padding: 15px 20px;
+        transform: rotate(1deg);
+        width: fit-content;
+    }
+    #latest-articles .group-latest .parent .child-one {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-one .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-one .content .info-person i {
+        display: flex;
+    }
+    #latest-articles .group-latest .parent .child-two {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-two .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-two .content .info-person i {
+        display: flex;
+    }
+    #latest-articles .group-latest .parent .child-three {
+        flex-direction: column;
+    }
+    #latest-articles .group-latest .parent .child-three .gallery span {
+        right: 80px;
+    }
+    #latest-articles .group-latest .parent .child-three .content .info-person i {
+        display: flex;
+    }
+    #latest-articles .group-latest .btn-lma {
+        transform: translate(20px);
+    }
+    #latest-articles .group-latest .btn-lma:hover {
+        transform: translate(20px, 20px);
+    }
+    #latest-articles .group-latest .parent-two {
+        width: 100%;
+    }
+    #theAuthors {
+        width: 100%;
+    }
+    #theAuthors .specific {
+        background-color: transparent;
+    }
+    #theAuthors .specific-two {
+        background-color: transparent;
+    }
+    #theAuthors .title h2 {
+        font-size: 35px;
+    }
+    #theAuthors .title p {
+        font-size: 19px;
+    }
+    #theAuthors .title .af-ter::after {
+        left: 250px;
+        transform: rotate(0.5deg);
+    }
+    #theAuthors .group-person {
+        width: 100%;
+        flex-direction: column;
+    }
+    #theAuthors .group-person .person-one {
+        width: 100%;
+    }
+    #theAuthors .group-person .person-one h5{
+        font-size: 19px;
+    }
+    #theAuthors .group-person .person-one p{
+       font-weight: bold;   
+       font-size: 20px;
+     }
+    #rebellion {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #rebellion .title h2 {
+        font-size: 35px;
+    }
+    #rebellion .title .af-ter::after {
+        left: 250px;
+    }
+    #rebellion .group-rebellion {
+        width: 100%;
+        flex-direction: column;
+    }
+    #rebellion .group-rebellion .group-one {
+        width: 100%;
+        padding-top: 30px;
+    }
+    #rebellion .group-rebellion .group-one h3 {
+        font-size: 30px;
+    }
+    #rebellion .group-rebellion .group-one .join-now {
+        font-size: 20px;
+        padding: 25px 40px;
+    }
+    #rebellion .group-rebellion .group-two {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #rebellion .group-rebellion .group-two h3 {
+        width: 100%;
+        font-size: 25px;
+    }
+    #rebellion .group-rebellion .group-two .inner .item p {
+        font-size: 18px;
+    }
+    #footer {
+        width: 100%;
+    }
+    #footer .item .inner {
+        flex-direction: column;
+    }
+    #footer .item .inner .theux-revie {
+        width: 100%;
+    }
+    #footer .item .inner .categories {
+        width: 100%;
+    }
+    #footer .item .inner .newsletter {
+        width: 100%;
+    }
+    #footer .item .footer-end {
+        flex-direction: column;
+    }
+    #footer .item .footer-end .p-item {
+        width: 100%;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    #footer .item .footer-end .ptc-item {
+        width: 100%;
+    }
+    #footer .item .footer-end .ptc-item ul a {
+        font-size: 20px;
+    }
+}
